@@ -1,8 +1,8 @@
 services:
   immich-auto-tag:
-    build: .
-    # Or, once images are published:
-    # image: ghcr.io/kinetic-it/immich-auto-tag:latest
+    image: ghcr.io/kinetic-it/immich-auto-tag:latest
+    # Or build locally instead:
+    # build: .
     container_name: immich-auto-tag
     restart: "no"
     env_file:
