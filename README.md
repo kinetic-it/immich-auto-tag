@@ -11,12 +11,17 @@ nested tag `Trip/2026`, with the `06` (month) level skipped entirely.
 > an AI coding assistant (Claude). Review the code before running it against
 > your own Immich instance, especially before disabling `DRY_RUN`.
 
+> **Not affiliated with Immich.** This is an independent, unofficial
+> community tool that talks to the public Immich API. It is not endorsed by,
+> sponsored by, or affiliated with the Immich project or its maintainers.
+
 ## Status
 
-Early / personal project, still being validated against a real library.
-The folder-to-tag mapping logic is tested; the glob-pattern matching for
-`IGNORE` / `PATH_FILTER` is new and less battle-tested. Use `DRY_RUN=true`
-(the default) to check the planned tags before writing anything.
+Early / personal project, validated against a real library (~11,500 assets,
+~17 folder-derived tags created successfully). The glob-pattern matching for
+`IGNORE` / `PATH_FILTER` is new and less battle-tested than the core
+folder-to-tag mapping logic. Use `DRY_RUN=true` (the default) to check the
+planned tags before writing anything.
 
 ## How it works
 
